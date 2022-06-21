@@ -39,7 +39,7 @@ public class macrop1 {
 				for(int i=1;i<parts.length;i++) //processing of parameters
 				{
 					parts[i]=parts[i].replaceAll("[&,]", "");
-					//System.out.println(parts[i]);
+					
 					fvsppl.write(parts[0]+"\n"+"------------------"+"\n"+"\n");
 					avsppl.write(parts[0]+"\n"+"------------------"+"\n"+"\n");
 					if(parts[i].contains("="))
